@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".business">
+
+    <!-- TODO: Update blank fragment layout -->
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="350dp"
+        android:src="@drawable/cafe" />
+
+    <TextView
+        android:id="@+id/textview_5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imageView"
+        android:gravity="center_horizontal"
+        android:paddingTop="0dp"
+        android:text="You have made no\n transaction yet"
+        android:textColor="@color/black"
+        android:textSize="30dp" />
+    <TextView
+        android:id="@+id/textview_6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textview_5"
+        android:paddingTop="10dp"
+        android:text="Subscribe now to save up to 50% on every cup of your\n favourite coffee "
+        android:gravity="center"
+        android:textSize="15dp"
+        android:textColor="@color/black"/>
+
+</RelativeLayout>

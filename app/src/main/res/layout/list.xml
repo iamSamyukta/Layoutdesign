@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <RelativeLayout
+        android:id="@+id/relative"
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:background="@color/white">
+
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:id="@+id/imageview"
+            android:src="@drawable/arrow"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="380dp"/>
+
+        <TextView
+            android:id="@+id/Area"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Jayanagar"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:textSize="23dp"/>
+
+        <TextView
+            android:id="@+id/City"
+            android:layout_below="@+id/Area"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:text="Banglore"
+            android:textSize="20dp"/>
+
+        <TextView
+            android:id="@+id/divider"
+            android:layout_below="@+id/City"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="________________________________________________________"
+            android:textSize="20dp"/>
+
+    </RelativeLayout>
+
+</RelativeLayout>

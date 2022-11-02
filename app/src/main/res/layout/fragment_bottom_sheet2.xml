@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".BottomSheetFragment2">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="Redeem Gift Card"
+        android:textColor="@color/black"
+        android:textSize="25dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="10dp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="ENTER GIFT CARD NUMBER"
+        android:textColor="@color/black"
+        android:textSize="15dp"
+        android:layout_marginTop="55dp"
+        android:layout_marginStart="20dp"
+        android:textStyle="bold"/>
+
+    <EditText
+        android:layout_width="90dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:layout_marginStart="20dp"
+        android:text="     0000"/>
+
+    <EditText
+        android:layout_width="90dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:layout_marginStart="110dp"
+        android:text="     0000"/>
+
+    <EditText
+        android:layout_width="90dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:layout_marginStart="210dp"
+        android:text="     0000"/>
+
+    <EditText
+        android:layout_width="90dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:layout_marginStart="310dp"
+        android:text="     0000"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="ENTER 6 DIGIT PIN"
+        android:textColor="@color/black"
+        android:textSize="15dp"
+        android:layout_marginTop="168dp"
+        android:layout_marginStart="20dp"
+        android:textStyle="bold"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="200dp"/>
+
+    <EditText
+        android:layout_width="50dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="220dp"
+        android:layout_marginStart="30dp"/>
+
+    <EditText
+        android:layout_width="50dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="220dp"
+        android:layout_marginStart="90dp"/>
+
+    <EditText
+        android:layout_width="50dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="220dp"
+        android:layout_marginStart="150dp"/>
+
+    <EditText
+        android:layout_width="50dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="220dp"
+        android:layout_marginStart="210dp"/>
+
+    <EditText
+        android:layout_width="50dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="220dp"
+        android:layout_marginStart="270dp"/>
+
+    <EditText
+        android:layout_width="50dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="220dp"
+        android:layout_marginStart="330dp"/>
+
+    <Button
+        android:id="@+id/idBtnVerify"
+        android:layout_width="380dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/idEdtOtp"
+        android:layout_marginStart="15dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="330dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/round_button"
+        android:backgroundTint="@color/dark"
+        android:text="REDEEM"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:textSize="18sp" />
+
+</FrameLayout>

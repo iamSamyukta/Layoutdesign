@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/bottomsheetContainer"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:background="@drawable/backgroun1"
+    android:gravity="bottom">
+
+    <ImageView
+        android:id="@+id/alert"
+        android:layout_width="180dp"
+        android:layout_height="180dp"
+        android:src="@drawable/ic_baseline_photo_camera_24"/>
+    <ImageView
+        android:id="@+id/alert1"
+        android:layout_width="180dp"
+        android:layout_height="180dp"
+        android:src="@drawable/ic_baseline_image_24"/>
+
+
+</LinearLayout>

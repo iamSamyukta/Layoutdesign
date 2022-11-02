@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:id="@+id/cons_layout"
+    tools:context=".details">
+
+    <ImageButton
+        android:id="@+id/imagebutton"
+        android:layout_width="match_parent"
+        android:layout_height="1300dp"
+        android:layout_marginTop="-450dp"
+        android:background="@color/white"
+        android:src="@drawable/nagar"/>
+
+    <LinearLayout
+        android:layout_width="40dp"
+        android:layout_height="match_parent"
+        android:layout_marginStart="290dp">
+
+    <TextView
+        android:id="@+id/text4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawableRight="@drawable/ic_baseline_call_24"
+        android:paddingRight="10dp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="45dp"
+        android:layout_height="match_parent"
+        android:layout_marginStart="320dp">
+    <TextView
+        android:id="@+id/text3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawableRight="@drawable/ic_baseline_share_24"
+        android:paddingRight="10dp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="50dp"
+        android:layout_height="match_parent"
+        android:layout_marginStart="360dp">
+
+        <com.sackcentury.shinebuttonlib.ShineButton
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginStart="5dp"
+            android:id="@+id/po_image2"
+            app:btn_color="@color/white"
+            app:btn_fill_color="@color/brown1"
+            app:allow_random_color="false"
+            app:siShape="@raw/heart"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/text1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawableLeft="@drawable/ic_baseline_arrow_back_ios_29"
+        android:paddingLeft="10dp"
+        />
+    </LinearLayout>
+
+
+
+    <include layout="@layout/content"/>
+    <include layout="@layout/bottom_sheet"/>
+
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

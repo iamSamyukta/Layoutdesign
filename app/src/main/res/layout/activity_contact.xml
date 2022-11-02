@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F9FBE7"
+    tools:context=".contact">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="320dp"
+        android:background="#F9FBE7"
+        app:srcCompat="@drawable/cafe" />
+
+    <TextView
+        android:id="@+id/textview_3"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@+id/imageView"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:text="Tingling fingertips?"
+        android:textColor="@color/black"
+        android:textSize="30dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textview4"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_below="@+id/textview_3"
+        android:layout_marginTop="20dp"
+        android:gravity="center_horizontal"
+        android:text="that's magnetic urge to get in \n touch with us!"
+        android:textColor="@color/black"
+        android:textSize="15dp" />
+
+    <Button
+        android:id="@+id/next"
+        android:layout_width="380dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="480dp"
+        android:layout_marginEnd="10dp"
+        android:background="@drawable/round_button"
+        android:backgroundTint="@color/brown"
+        android:text="CALL US"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:textSize="22sp"
+        app:cornerRadius="24dp" />
+
+    <Button
+        android:layout_below="@+id/next"
+        android:layout_width="380dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+        android:background="@drawable/round_button"
+        android:backgroundTint="@color/brown"
+        android:text="DROP US A LINE"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:textSize="22sp"
+        app:cornerRadius="24dp" />
+
+
+
+
+</RelativeLayout>

@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "74784460141",
+    "project_id": "layoutdesigns-9b1ab",
+    "storage_bucket": "layoutdesigns-9b1ab.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:74784460141:android:00dbfecee88db2c6599e64",
+        "android_client_info": {
+          "package_name": "com.layoutdesigns"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "74784460141-4e64ormrs3cplej4r0sciq808m0epvq6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAFvOecT-X4pDbq1t-ajp3c-v9VkLjMUz4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "74784460141-4e64ormrs3cplej4r0sciq808m0epvq6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

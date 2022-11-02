@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".payy">
+    
+    <androidx.cardview.widget.CardView
+        android:layout_width="370dp"
+        android:layout_height="90dp"
+        android:foreground="@drawable/effect"
+        android:clickable="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        app:cardCornerRadius="20dp"
+        app:cardElevation="40dp">
+
+        <CheckBox
+            android:id="@+id/check"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:foreground="@drawable/effect"
+            android:clickable="true"
+            android:button="@drawable/img_checked"
+            />
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="35dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginStart="80dp"
+            android:background="@drawable/bhimlogo"/>
+
+        <TextView
+            android:layout_width="80dp"
+            android:layout_height="50dp"
+            android:contentDescription="@string/todo"
+            android:layout_marginStart="195dp"
+            android:layout_marginTop="27dp"
+            android:text="UPI"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:textSize="30dp"/>
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="370dp"
+        android:layout_height="90dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="130dp"
+        android:backgroundTint="#FFFFFF"
+        app:cardCornerRadius="20dp"
+        app:cardElevation="40dp">
+
+        <CheckBox
+            android:id="@+id/check1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:foreground="@drawable/effect"
+            android:clickable="true"
+            android:button="@drawable/img_checked"/>
+
+        <TextView
+            android:layout_width="65dp"
+            android:layout_height="55dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginStart="80dp"
+            android:background="@drawable/ic_baseline_credit_card_24"/>
+
+        <TextView
+            android:layout_width="80dp"
+            android:layout_height="50dp"
+            android:contentDescription="@string/todo"
+            android:layout_marginStart="160dp"
+            android:layout_marginTop="27dp"
+            android:text="Cards"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:textSize="30dp"/>
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="370dp"
+        android:layout_height="90dp"
+        android:foreground="@drawable/effect"
+        android:clickable="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="240dp"
+        android:backgroundTint="#FFFFFF"
+        app:cardCornerRadius="20dp"
+        app:cardElevation="40dp">
+
+        <CheckBox
+            android:id="@+id/check2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:foreground="@drawable/effect"
+            android:clickable="true"
+            android:button="@drawable/img_checked"/>
+
+        <TextView
+            android:layout_width="65dp"
+            android:layout_height="55dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginStart="80dp"
+            android:background="@drawable/ic_baseline_account_balance_24"/>
+
+        <TextView
+            android:layout_width="170dp"
+            android:layout_height="50dp"
+            android:contentDescription="@string/todo"
+            android:layout_marginStart="160dp"
+            android:layout_marginTop="27dp"
+            android:text="Netbanking"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:textSize="30dp"/>
+    </androidx.cardview.widget.CardView>
+
+
+</RelativeLayout>

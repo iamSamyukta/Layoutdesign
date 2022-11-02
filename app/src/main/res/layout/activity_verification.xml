@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"
+       android:orientation="vertical"
+       android:scrollbarSize="10dp">
+
+
+      <EditText
+          android:id="@+id/FullName"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:layout_below="@+id/FullName"
+          android:layout_marginTop="15dp"
+          android:hint="Full Name"
+          android:textSize="25dp" />
+
+      <EditText
+          android:id="@+id/EmailAddress"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:layout_below="@+id/emailaddress"
+          android:layout_marginTop="15dp"
+          android:hint="Email Address"
+          android:textSize="25dp" />
+
+      <EditText
+          android:id="@+id/BirthDate"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:layout_below="@+id/BirthDate"
+          android:layout_marginTop="20dp"
+          android:hint="BirthDate"
+          android:textSize="25dp" />
+
+      <RelativeLayout
+          android:id="@+id/GenderLayout"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:layout_below="@+id/AgeLayout">
+
+         <RadioGroup
+             android:id="@+id/genderGroup"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_marginLeft="65dp"
+             android:layout_marginTop="10dp"
+             android:layout_marginEnd="65dp"
+             android:layout_marginRight="65dp"
+             android:orientation="horizontal"
+             android:scrollbarSize="5dp"
+             app:layout_constraintEnd_toEndOf="parent"
+             app:layout_constraintStart_toStartOf="parent"
+             app:layout_constraintTop_toBottomOf="@+id/email"
+             tools:ignore="UnknownId">
+
+
+            <RadioButton
+                android:id="@+id/radioMaleButton"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:buttonTint="@color/loginButtonBG"
+                android:buttonTintMode="multiply"
+                android:hint="@string/male"
+                android:minHeight="48dp"
+                android:textSize="25dp"
+                tools:targetApi="lollipop" />
+
+            <RadioButton
+                android:id="@+id/radioFemaleButton"
+                android:layout_width="130dp"
+                android:layout_height="50dp"
+                android:buttonTint="@color/loginButtonBG"
+                android:buttonTintMode="multiply"
+                android:hint="@string/female"
+                android:textSize="25dp"
+                tools:ignore="TouchTargetSizeCheck"
+                tools:targetApi="lollipop" />
+         </RadioGroup>
+
+      </RelativeLayout>
+
+      <Button
+          android:id="@+id/google"
+          android:layout_width="380dp"
+          android:layout_height="wrap_content"
+          android:layout_marginStart="10dp"
+          android:layout_marginTop="50dp"
+          android:layout_marginEnd="10dp"
+          android:gravity="center"
+          android:background="@drawable/curves"
+          android:backgroundTint="@color/white"
+          android:drawableLeft="@drawable/glogo"
+          android:text="Continue with Google"
+          android:textColor="@color/black"
+          android:textStyle="bold" />
+
+      <Button
+          android:id="@+id/facebook"
+          android:layout_width="380dp"
+          android:layout_height="wrap_content"
+          android:layout_marginStart="10dp"
+          android:layout_marginTop="10dp"
+          android:layout_marginEnd="10dp"
+          android:gravity="center"
+          android:background="@drawable/curves"
+          android:backgroundTint="@color/white"
+          android:drawableLeft="@drawable/fblogo"
+          android:text="Continue with Facebook"
+          android:textColor="@color/black"
+          android:textStyle="bold" />
+
+
+      <Button
+          android:id="@+id/next"
+          android:layout_width="380dp"
+          android:layout_height="wrap_content"
+          android:layout_marginStart="10dp"
+          android:layout_marginTop="60dp"
+          android:layout_marginEnd="10dp"
+          android:background="@drawable/round_button"
+          android:backgroundTint="@color/brown"
+          android:text="Next"
+          android:textAllCaps="false"
+          android:textColor="@color/white"
+          android:textSize="22sp"
+          app:cornerRadius="24dp" />
+
+
+   </LinearLayout>
+
+</RelativeLayout>

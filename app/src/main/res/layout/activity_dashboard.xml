@@ -1,0 +1,316 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".dashboard">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@id/bottom_navigation">
+
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="620dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="10dp"
+                android:background="@drawable/beans"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/textView14"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="40dp"
+                    android:text="It's a great \nday for coffee!"
+                    android:textColor="#8C4B1E"
+                    android:textSize="25sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/textView15"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="20dp"
+                    android:text="Hello, GuestUser"
+                    android:textColor="#954A16"
+                    android:textSize="15sp" />
+
+                <Button
+                    android:id="@+id/button6"
+                    android:layout_width="380dp"
+                    android:layout_height="100dp"
+                    android:text="Turn on location to get \n  access of exciting offers!"
+                    android:backgroundTint="#FFFFFF"
+                    android:drawableRight="@drawable/ic_baseline_arrow_forward_ios_24"
+                    android:drawableLeft="@drawable/ic_baseline_my_location_24"
+                    android:textColor="#FF000000"
+                    android:textSize="20sp"
+                    android:gravity="center"
+                    android:layout_marginTop="200dp"
+                    android:layout_marginStart="10dp"
+                    android:textAllCaps="false"
+                    android:background="@drawable/curve"/>
+
+                <Button
+                    android:id="@+id/button7"
+                    android:layout_width="380dp"
+                    android:layout_height="100dp"
+                    android:text="Earn 10% Wave Coins on every purchase at cafes.Redeem Wave Coins for a discount on your bill."
+                    android:backgroundTint="#955528"
+                    android:textColor="#F4ECEC"
+                    android:textSize="23sp"
+                    android:gravity="center"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginTop="30dp"
+                    android:drawableRight="@drawable/ic_baseline_arrow_forward_ios_24"
+                    android:textAllCaps="false"
+                    android:background="@drawable/curve"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:text="  NEWLY OPENED CAFES"
+                    android:layout_marginTop="10dp"
+                    android:textSize="15dp"
+                    android:textColor="@color/black"
+                    android:textStyle="bold"/>
+
+
+            </LinearLayout>
+
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/card"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                app:cardCornerRadius="24dp"
+                tools:ignore="MissingConstraints">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <!-- Media -->
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="194dp"
+                        android:scaleType="centerCrop"
+                        app:srcCompat="@drawable/nagar" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:padding="16dp">
+
+                        <!-- Title, secondary and supporting text -->
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="JAYANAGAR"
+                            android:textAppearance="?attr/textAppearanceHeadline6"
+                            android:textSize="20sp"
+                            android:textStyle="bold" />
+
+                        <com.sackcentury.shinebuttonlib.ShineButton
+                            android:layout_width="30dp"
+                            android:layout_height="30dp"
+                            android:layout_marginStart="330dp"
+                            android:layout_marginTop="-28dp"
+                            android:id="@+id/po_image2"
+                            app:btn_color="@color/whitee"
+                            app:btn_fill_color="@color/brown1"
+                            app:allow_random_color="false"
+                            app:siShape="@raw/heart"/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="5dp"
+                            android:text="BANGALORE"
+                            android:textAppearance="?attr/textAppearanceBody2"
+                            android:textColor="?android:attr/textColorSecondary"
+                            android:textSize="10sp"
+                            android:textStyle="bold" />
+
+                    </LinearLayout>
+
+                    <!-- Buttons -->
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="8dp"
+                        android:orientation="horizontal">
+
+                        <Button
+                            android:id="@+id/button1"
+                            android:layout_width="120dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="20dp"
+                            android:layout_marginEnd="1dp"
+                            android:layout_weight="1"
+                            android:background="@drawable/curve"
+                            android:backgroundTint="#5E0707"
+                            android:drawableTint="@color/black"
+                            android:shadowColor="#5E0707"
+                            android:text="Get Direction"
+                            android:textColor="@color/white" />
+
+                        <Button
+                            android:id="@+id/button2"
+                            android:layout_width="120dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="100dp"
+                            android:layout_weight="1"
+                            android:background="@drawable/curve"
+                            android:backgroundTint="#5E0707"
+                            android:drawableTint="@color/black"
+                            android:text="DETAILS"
+                            android:textColor="@color/white" />
+                    </LinearLayout>
+
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/card1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                app:cardCornerRadius="24dp"
+                tools:ignore="MissingConstraints">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <!-- Media -->
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="194dp"
+                        android:scaleType="centerCrop"
+                        app:srcCompat="@drawable/hsr" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:padding="16dp">
+
+                        <!-- Title, secondary and supporting text -->
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="HSR LAYOUT"
+                            android:textAppearance="?attr/textAppearanceHeadline6"
+                            android:textSize="20sp"
+                            android:textStyle="bold" />
+
+
+                        <com.sackcentury.shinebuttonlib.ShineButton
+                            android:layout_width="30dp"
+                            android:layout_height="30dp"
+                            android:layout_marginStart="330dp"
+                            android:layout_marginTop="-28dp"
+                            android:id="@+id/po_image3"
+                            app:btn_color="@color/whitee"
+                            app:btn_fill_color="@color/brown1"
+                            app:allow_random_color="false"
+                            app:siShape="@raw/heart"/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="5dp"
+                            android:text="BANGALORE"
+                            android:textAppearance="?attr/textAppearanceBody2"
+                            android:textColor="?android:attr/textColorSecondary"
+                            android:textSize="10sp"
+                            android:textStyle="bold" />
+
+
+                    </LinearLayout>
+
+                    <!-- Buttons -->
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="8dp"
+                        android:orientation="horizontal">
+
+                        <Button
+                            android:id="@+id/button4"
+                            android:layout_width="120dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="20dp"
+                            android:layout_marginEnd="1dp"
+                            android:layout_weight="1"
+                            android:background="@drawable/curve"
+                            android:backgroundTint="#5E0707"
+                            android:drawableTint="@color/black"
+                            android:shadowColor="#5E0707"
+                            android:text="Get Direction"
+                            android:textColor="@color/white" />
+
+                        <Button
+                            android:id="@+id/button5"
+                            android:layout_width="120dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="100dp"
+                            android:layout_weight="1"
+                            android:background="@drawable/curve"
+                            android:backgroundTint="#5E0707"
+                            android:drawableTint="@color/black"
+                            android:text="DETAILS"
+                            android:textColor="@color/white"/>
+                    </LinearLayout>
+
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+        </LinearLayout>
+    </ScrollView>
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_marginStart="100dp"
+        android:layout_marginTop="550dp"
+        android:layout_weight="1"
+        android:background="@drawable/curve"
+        android:backgroundTint="#5E0707"
+        android:drawableTint="@color/black"
+        android:text="JOIN NOW"
+        android:textColor="@color/white" />
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/bottom_navigation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:foregroundGravity="bottom"
+        app:itemBackground="@color/brown"
+        app:itemRippleColor="@color/white"
+        app:menu="@menu/menu_navigation" />
+
+</RelativeLayout>
+
+
